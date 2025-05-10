@@ -1,0 +1,31 @@
+OBJECTIVE
+Build a React application that
+1. Display the table with all the values
+2. Allows users to filter a list of audience members based on:
+    - Name (first or last name, case-insensitive)
+    - Job Title (text input, partial match, case-insensitive)
+    - Company Name (text input, partial match, case-insensitive)
+    - Tier (1–4, using checkboxes)
+
+
+TASK:
+Create a React app using functional components.
+
+
+1. Use any state management to manage:
+   - Audience data
+   - Filter state (name, job title, company name, tier)
+
+2. Implement a filter UI with:
+   - Name input (searches both first & last name)
+   - Job Title input (partial match)
+   - Company Name input (partial match)
+   - Tier checkboxes (1–4)
+
+3. Display the audience list in a table format using any external component library of your choice.
+
+4. Filtered results should update in real-time as filters are applied.
+
+5. Show a “No results found” message when applicable.
+
+6. Add in clear filters button
